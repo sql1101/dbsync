@@ -1,0 +1,18 @@
+[DEFAULT]
+server = 192.168.1.95:9092,192.168.1.96:9092,192.168.1.97:9092
+dbuser = root
+dbpassword = admin
+
+
+#instance config
+[oms]
+topic = oms
+ip = 192.168.1.210:3306
+
+
+[testdb]
+topic = test
+ip = 192.168.1.210:3306
+
+
+
